@@ -1,0 +1,130 @@
+body {
+  font-family: "Century Gothic", 'Lato', sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+
+.et-hero-tabs,
+.et-slide1, .et-slide2, .et-slide3, .et-slide4, .et-slide5  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+  background: #eee;
+  text-align: center;
+  padding: 0 2em;
+  h1 {
+      font-size: 2rem;
+      margin: 0;
+      letter-spacing: 1rem;
+  }
+  h3 {
+      font-size: 1rem;
+      letter-spacing: 0.3rem;
+      opacity: 0.6;
+  }
+}
+
+.et-hero-tabs-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  z-index: 10;
+  &--top {
+      position: fixed;
+      top: 0;
+  }
+}
+
+.et-hero-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  color: #000;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 0.8rem;
+  &:hover {
+    color:white;
+    background: rgba(102,177,241,0.8);
+    transition: all 0.5s ease;
+  }
+}
+
+.et-hero-tab-slider {
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  background: #66B1F1;
+  transition: left 0.3s ease;
+}
+
+@media (min-width: 800px) {
+.et-hero-tabs,
+.et-slide {
+  h1 {
+      font-size: 3rem;
+  }
+  h3 {
+      font-size: 1rem;
+  }
+}
+.et-hero-tab {
+  font-size: 1rem;
+}
+}
+
+.et-hero-tabs {
+  background: url('./resources/374241050_229837220058423_9209539207929992396_n.jpg');
+}
+
+.et-hero-tab1, .tab-es6 {
+  background: url('./resources/Animals/Gorilla\ bedroom.jpg') center/cover;
+}
+
+.et-hero-tab2, .tab-flexbox {
+  background: url('./resources/Animals/Lion\ indoor.jpg') center/cover;
+}
+
+.et-hero-tab3, .tab-react {
+  background: url('./resources/Animals/Multicoloured\ Tri\ Animal.jpg') center/cover;
+}
+
+.et-hero-tab4, .tab-angular {
+  background: url('./resources/Animals/Unicorn\ Dino\ Animals.jpg') center/cover;
+}
+
+.et-hero-tab5, .tab-other {
+  background: url('./resources/Animals/Woodpecker.jpg') center/cover;
+}
+
+.et-slide1 {
+  background: url('./resources/Animals/Gorilla\ bedroom.jpg') center/cover;
+}
+
+.et-slide2 {
+  background: url('./resources/Animals/Lion\ Bedroom.jpg') center/cover;
+}
+
+.et-slide3 {
+  background: url('./resources/Animals/Dino\ multi\ colour\ bedroom.jpg') center/cover;
+}
+
+.et-slide4 {
+  background: url('./resources/Animals/Unicorn\ Dino\ Animals.jpg') center/cover;
+}
+
+.et-slide5 {
+  background: url('./resources/Animals/Woodpecker.jpg') center/cover;
+}
