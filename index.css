@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* font-family: 'Roboto', sans-serif; */
 /* general */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,10 +10,12 @@
   text-decoration: none;
   font-family: "Roboto", sans-serif;
 }
+
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
 button {
   background-color: #3882f6;
   color: white;
@@ -29,10 +32,8 @@ button:hover {
   background-color: #2469da;
   cursor: pointer;
 }
-/* end general */
-/*************************************************************/
+
 /************************** navigation ***********************/
-/*************************************************************/
 
 header {
   background: #1f2937;
@@ -91,12 +92,11 @@ body {
 
 main {
   padding: 150px 30px 50px 50px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/brussels/navimage.jpg);
   background-size: cover;
   background-position: center;
   /* opacity: 0.8; */
 }
+
 h1 {
   color: white;
   font-size: 50px;
