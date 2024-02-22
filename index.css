@@ -14,11 +14,12 @@ html,body {
 
 header {
   background: #eee;
-  background-image: url("/resources/Animals/Lion\ indoor.jpg");
+  background-image: url("/resources/374241050_229837220058423_9209539207929992396_n.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 250px;
+  background-position: top center;
+  background-size: 100%;
+  height: 600px;
+  width: auto;
 }
 
 header i {
@@ -199,7 +200,7 @@ main {
   }
 }
 .gallery  {
-  margin-top: 35px;
+  margin: 35px 35px;
 }
 
 .gallery div {
