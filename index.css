@@ -1,5 +1,5 @@
 html,body {
-  background: #efefef;
+  background: #faf9f9;
   font-family: "Arial";
 }
 
@@ -14,7 +14,7 @@ html,body {
 
 header {
   background: #eee;
-  background-image: url("/resources/374241050_229837220058423_9209539207929992396_n.jpg");
+  background-image: url("/resources/Names/");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 100% auto;
