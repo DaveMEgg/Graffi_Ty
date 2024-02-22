@@ -14,9 +14,9 @@ html,body {
 
 header {
   background: #eee;
-  background-image: url("/resources/Names/");
+  background-image: url("/resources/Names/Jake\ Name.jpg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: 100% auto;
   height: 600px;
   width: auto;
