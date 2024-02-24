@@ -18,7 +18,7 @@ html,body {
 	pointer-events: none;
 }
 
-.porfolio div {
+.porfolio article {
   background-color: #4267b2;
 }
 
@@ -60,14 +60,6 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-.photo-pages {
-  width: 200px;
-  height: 200px;
-  margin-top: -50px;
-  border-radius: 100px;
-  border: 4px solid #fff;
 }
 
 .photo {
@@ -171,9 +163,17 @@ main {
   width: auto;
 }
 
-nav ul a {
-  display: inline-block;
+.nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav ul li {
   margin: 5px;
+}
+
+.nav ul a {
+  display: flex;
   padding: 5px;
   background-color: #a7b1bb01;
   color: #fff;
@@ -202,22 +202,21 @@ nav ul a:active {
     text-align: center;
     }
 }
-.gallery  {
+
+.gallery, .gallery article, .article div {
   margin: 35px 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Adjust the column width as needed */
+  gap: 20px; /* Adjust the gap between grid items */
 }
 
-.gallery div {
-  margin-bottom: 20px;
-}
 
 .gallery img {
   box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
-  width: 250; 
+  width: 100%;
   height: auto;
   cursor: pointer;
   max-width: 100%;
-  padding: 5px 5px;
-  margin: 5px 5px;
 }
 
 .anchor-container {
