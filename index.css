@@ -1,5 +1,5 @@
 html,body {
-  background: #faf9f9;
+  background: #d59696;
   font-family: "Arial";
 }
 
@@ -18,13 +18,16 @@ html,body {
 	pointer-events: none;
 }
 
+.porfolio div {
+  background-color: #4267b2;
+}
+
 header {
-  background: #eee;
-  background-image: url("./resources/Names/Jake\ Name.jpg");
+  background: #cb7d7d;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
-  height: 600px;
+  height: 50px;
   width: auto;
   z-index: 10;
 }
@@ -70,20 +73,9 @@ main {
 .photo {
   width: 200px;
   height: 200px;
-  margin-top: -100px;
+  margin-top: 10px;
   border-radius: 100px;
   border: 4px solid #fff;
-}
-
-.active {
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-  position: absolute;
-  right: calc(50% - 70px);
-  top: 50px;
-  background-color: #FFC107;
-  border: 3px solid #fff;
 }
 
 .hover:hover {
@@ -170,54 +162,45 @@ main {
 }
 
 .nav {
-  display: inline-flex;
+  color: white;
+  justify-content: center;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  height: 5%;
+  width: auto;
 }
 
-.nav li {
-  margin: 40px 30px 0 10px;
-  cursor: pointer;
-  font-size: 13pt;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  color: #888;
-}
-
-.nav li:hover, .nav li:nth-child(1)  { 
-  color: #999;
-  border-bottom: 2px solid #999;
-}
-
-.follow {
-  position: absolute;
-  right: 8%;
-  top: 35px;
-  font-size: 11pt;
-  background-color: #42b1fa;
+nav ul a {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+  background-color: #a7b1bb01;
   color: #fff;
-  padding: 8px 15px;
-  cursor: pointer;
-  transition: all .4s;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-.follow:hover {
-  box-shadow: 0 0 15px rgba(0,0,0,0.2), 0 0 15px rgba(0,0,0,0.2);
+nav ul a:hover {
+  background-color: #245083;
+}
+
+nav ul a:active {
+  background-color: #181a1d;
+}
+
+.nav:hover {
+  color: #4267b2;
 }
 
 @media (max-width:990px) {
-  .nav {
-    display: none;
-  }
-  
   .follow {
     width: 50%;
     margin-left: 25%;
     display: block;
     position: unset;
     text-align: center;
-  }
+    }
 }
 .gallery  {
   margin: 35px 25px;
@@ -229,7 +212,7 @@ main {
 
 .gallery img {
   box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.10);
-  width: auto; 
+  width: 250; 
   height: auto;
   cursor: pointer;
   max-width: 100%;
@@ -247,7 +230,7 @@ main {
 	position: relative;
 }
 .anchor-container a:hover {
-	color: #3882f6;
+	color: #181a1d;
 }
 .anchor-container a::after {
 	content: "";
@@ -261,7 +244,7 @@ main {
 }
 .anchor-container a:hover::after {
 	width: 100%;
-	background-color: #3882f6;
+	background-color: #1f2022;
 }
 .anchor-container a:first-child {
 	pointer-events: none;
