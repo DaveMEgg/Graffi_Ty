@@ -178,8 +178,8 @@ main {
   margin: 5px;
   text-decoration: none;
   color: #333;
-  border: 1px solid #333;
   border-radius: 5px;
+  position: relative;
 }
 
 nav ul a:hover {
