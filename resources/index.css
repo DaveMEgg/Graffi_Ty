@@ -43,7 +43,7 @@ header i {
 
 @media (max-width:800px) {
   header {
-    height: 150px;
+    height: 30px;
   } 
   
   header i {
@@ -63,11 +63,19 @@ main {
 }
 
 .photo {
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   margin-top: 10px;
-  border-radius: 100px;
-  border: 4px solid #fff;
+  border-radius: 50%;
+  border: 4px solid #895762;
+}
+
+.photo1 {
+  width: 500px;
+  height: 500px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 4px solid #895762;
 }
 
 .hover:hover {
@@ -215,6 +223,8 @@ nav ul a:active {
   height: auto;
   cursor: pointer;
   max-width: 100%;
+  max-height: 300px;
+  border: 5px solid #895762;
 }
 
 .anchor-container {
